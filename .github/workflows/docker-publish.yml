@@ -1,8 +1,6 @@
 name: CI
 
 on:
-  schedule:
-    - cron: '15 6 * * *'
   push:
     branches: [ "main","master" ]
     # Publish semver tags as releases.
